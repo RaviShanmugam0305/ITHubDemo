@@ -11,6 +11,7 @@
             var password = document.forms["loginform"]["pswd"].value;
             if(password == ""){
                 alert("Please enter password!");
+                document.getElementById('pwd').style.color = "red";
                 return false;
             }
         }
